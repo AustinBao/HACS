@@ -1,0 +1,7 @@
+@font-face{
+    font-family: "ComicSans";
+    src: url(fonts/COMIC.ttf);
+}
+.mainHeader{
+    font-family: "ComicSans";
+}
