@@ -1,6 +1,19 @@
+@font-face {
+    font-family: 'ComicSans';
+    src: url('fonts/COMIC.ttf') format('truetype');
+    /* Add more font formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+
+.MainHeader{
+    font-family: 'ComicSans'
+
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: 'ComicSans', sans-serif;
+    background-color: purple;
     text-align: center;
     padding: 50px;
 }
@@ -8,7 +21,7 @@ body {
 .login-container {
     max-width: 400px;
     margin: auto;
-    background-color: #fff;
+    background-color: red;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
