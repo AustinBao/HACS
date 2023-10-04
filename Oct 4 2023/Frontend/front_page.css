@@ -5,6 +5,17 @@
     font-weight: normal;
     font-style: normal;
 }
+.imgdiv{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+.coolimg{
+    height: auto;
+    max-width: 19%;
+}
 
 .MainHeader{
     font-family: 'ComicSans'
