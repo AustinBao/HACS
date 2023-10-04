@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'ComicSans';
+    src: url('fonts/COMIC.ttf') format('truetype');
+    /* Add more font formats if necessary */
+    font-weight: normal;
+    font-style: normal;
+}
+.imgdiv{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+.coolimg{
+    height: auto;
+    max-width: 19%;
+}
+
+.coolimg2{
+    height: auto;
+    max-width: 150%;
+}
+
+.MainHeader{
+    font-family: 'ComicSans'
+
+}
+
+body {
+    font-family: 'ComicSans', sans-serif;
+    background-color: purple;
+    text-align: center;
+    padding: 50px;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: red;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
